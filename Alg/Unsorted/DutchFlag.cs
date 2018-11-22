@@ -8,7 +8,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace ConsoleAppTest
 {
     [TestClass]
-    public class SteagOlandez
+    public class DutchFlag
     {
 
         public int[] RezolvareOptima(int[] sir, int pivotIndex)

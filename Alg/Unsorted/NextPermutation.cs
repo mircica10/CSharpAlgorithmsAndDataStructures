@@ -8,9 +8,8 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace ConsoleAppTest.Alg
 {
     [TestClass]
-    public class PermutareaUrmatoare
+    public class NextPermutation
     {
-
         void Swap(ref int a, ref int b)
         {
             int temp = a;

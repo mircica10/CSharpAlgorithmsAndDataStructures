@@ -8,7 +8,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace ConsoleAppTest
 {
     [TestClass]
-    public class SortarePastrareRand
+    public class SortWithOrderPreserving
     {
         [TestMethod]
         public void TestSortarePAstrareRand()

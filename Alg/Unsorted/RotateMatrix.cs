@@ -8,7 +8,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace ConsoleAppTest.Alg
 {
     [TestClass]
-    public class RotesteMatrice
+    public class RotateMatrix
     {
         int[,] RotesteDreaptaBruteForce(int n)
         {

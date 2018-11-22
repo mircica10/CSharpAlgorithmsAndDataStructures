@@ -9,7 +9,7 @@ namespace ConsoleAppTest.Alg
 {
 
     [TestClass]
-    public class Fotografie
+    public class Photo
     {
         bool Merge(int[] echipa1, int[] echipa2)
         {

@@ -8,7 +8,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace ConsoleAppTest.Alg
 {
     [TestClass]
-    public class AranjatSir
+    public class Quicksort2
     {
 
         int QuickPartition(int[] sir, int a, int b)

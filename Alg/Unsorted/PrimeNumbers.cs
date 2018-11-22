@@ -8,7 +8,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace ConsoleAppTest.Alg
 {
     [TestClass]
-    public class NumerePrime
+    public class PrimeNumbers
     {
 
         List<int> GenereazaNumerePrime(int n)

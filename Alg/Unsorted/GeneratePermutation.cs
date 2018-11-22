@@ -8,7 +8,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace ConsoleAppTest.Alg
 {
     [TestClass]
-    public class GenereazaPermutari
+    public class GeneratePermutation
     {
 
         //genereaza permutari ale caracterelor unui string

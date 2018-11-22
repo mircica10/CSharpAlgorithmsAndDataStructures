@@ -8,10 +8,8 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace ConsoleAppTest
 {
     [TestClass]
-    public class Anagrame
+    public class Anagrams
     {
-
-
         bool SuntAnagrameFaraHash(string s1, string s2)
         {
             if (s1.Length != s2.Length)

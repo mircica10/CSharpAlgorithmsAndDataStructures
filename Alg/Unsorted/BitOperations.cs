@@ -7,7 +7,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace ConsoleAppTest
 {
-    public class OperatiiCuBiti
+    public class BitOperations
     {
 
         public int[] arrayInvers = new int[65536];

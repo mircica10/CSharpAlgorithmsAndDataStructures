@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleAppTest
 {
-    class GreutateMinima
+    class MinimimWeight
     {
                 
         public int SchimbaBiti(int cuvant, int i, int j)

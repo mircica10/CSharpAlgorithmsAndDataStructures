@@ -9,7 +9,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace ConsoleAppTest.Alg
 {
     [TestClass]
-    public class VindeActiuneaDe2Ori
+    public class SellStockTwice
     {
         int ProfitMaxim(int[] sir)
         {
