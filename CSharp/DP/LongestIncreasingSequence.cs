@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace ConsoleAppTest.Alg.DP
 {
-    class CeaMaiLungaSecventaCrescatoare
+    class LongestIncreasingSequence
     {
         int[] sir = null;
 
-        int CalculeazaCeaMaiLungaSecventaCreascatoare()
+        int LongestIncreasingSequence()
         {
             int max = 0;
             int[] values = new int[sir.Length];
