@@ -8,7 +8,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace ConsoleAppTest.Alg
 {
     [TestClass]
-    public class AplicaPemutareaUnuiSir
+    public class ApplyPermutationToAnArray
     {
 
         void Swap(ref int a, ref int b)
