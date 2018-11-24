@@ -3,18 +3,20 @@
 
 (function(){
 
-  function Point(x,y){
+  function Point(x,y)
+  {
     return {x: x, y: y};
   }
   
-  function smallesDistanceBetweenTwoPointsBruteForce(arrayWithPoints){
+  function smallesDistanceBetweenTwoPointsBruteForce(arrayWithPoints)
+  {
     let smallestDistance = Infinity;
-    for(let i = 0; i < arrayWithPoints.length; ++i){
-      for(let j = i + 1; j < arrayWithPoints.length; ++j){
+    for(let i = 0; i < arrayWithPoints.length; ++i)
+    {
+      for(let j = i + 1; j < arrayWithPoints.length; ++j)
+      {
         let distance = distanceBetweenPoints(arrayWithPoints[i], arrayWithPoints[j]);
-        //console.log(distance + " " + arrayWithPoints[i].x + " " +arrayWithPoints[i].y + " " + arrayWithPoints[j].x + " " +arrayWithPoints[j].y)
-        if(distance < smallestDistance)
-          smallestDistance = distance;
+        if(distance < smallestDistance) smallestDistance = distance;
       }
     }
     return smallestDistance;
@@ -30,16 +32,16 @@
     array.sort((a,b) => a.x - b.x);
     let start = 0;
     let end = array.length - 1;
-    return smallestDistanceRecursive(0, array.length - 1, array);
+    return smallestDistanceRecursive(start, end, array);
   }
 
   function smallestDistanceRecursive(a, b, array){
-    if(a >= b)
-      return Infinity;
-    if(b - a == 1)
-      return distanceBetweenPoints(array[a], array[b]);
+    if ( a >= b ) return Infinity;
+
+    if ( (b - a) == 1) return distanceBetweenPoints(array[a], array[b]);
+
     let middle = a + Math.floor((b - a) / 2);
-    let middleX = Math.abs((array[middle + 1].x - array[middle].x)) / 2;
+    let middleX = array[middle].x + (array[middle + 1].x - array[middle].x) / 2;
 
     let firstSet = smallestDistanceRecursive(a, middle, array);
     let secondSet = smallestDistanceRecursive(middle + 1, b, array);
@@ -52,7 +54,7 @@
     for(let i = 0; i < stripLeft.length; ++i){
       for(let  j = 0; j < stripRight.length; ++j){
         let currentDistance = distanceBetweenPoints(stripLeft[i], stripRight[j]);
-        minDist = minDist < currentDistance ? minDist : currentDistance; 
+        if (minDist > currentDistance) { minDist = currentDistance; }  
       }
     }
     return minDist;      
@@ -82,9 +84,9 @@
     let points = generatePoints(10,40);
     
     let solveBruteForce = smallesDistanceBetweenTwoPointsBruteForce(points);
-    //console.log(solveBruteForce);
+    console.log(solveBruteForce);
     let solveDivideEtImpera = smallestDistanceRecursiveHelper(points);
-    //console.log(solveDivideEtImpera);
+    console.log(solveDivideEtImpera);
     console.assert(solveBruteForce == solveDivideEtImpera);
   };
   test();
