@@ -10,6 +10,7 @@ namespace ConsoleAppTest.Alg.Grafuri
     [TestClass]
     public class AlbNegru
     {
+        
         //DS
         internal struct Coordonate : IEquatable<Coordonate>
         {
