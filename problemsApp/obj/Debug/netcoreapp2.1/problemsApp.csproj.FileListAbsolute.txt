@@ -1,0 +1,11 @@
+C:\git\CSharpAlgorithmsAndDataStructures\problemsApp\bin\Debug\netcoreapp2.1\problemsApp.deps.json
+C:\git\CSharpAlgorithmsAndDataStructures\problemsApp\bin\Debug\netcoreapp2.1\problemsApp.runtimeconfig.json
+C:\git\CSharpAlgorithmsAndDataStructures\problemsApp\bin\Debug\netcoreapp2.1\problemsApp.runtimeconfig.dev.json
+C:\git\CSharpAlgorithmsAndDataStructures\problemsApp\bin\Debug\netcoreapp2.1\problemsApp.dll
+C:\git\CSharpAlgorithmsAndDataStructures\problemsApp\bin\Debug\netcoreapp2.1\problemsApp.pdb
+C:\git\CSharpAlgorithmsAndDataStructures\problemsApp\obj\Debug\netcoreapp2.1\problemsApp.csprojAssemblyReference.cache
+C:\git\CSharpAlgorithmsAndDataStructures\problemsApp\obj\Debug\netcoreapp2.1\problemsApp.csproj.CoreCompileInputs.cache
+C:\git\CSharpAlgorithmsAndDataStructures\problemsApp\obj\Debug\netcoreapp2.1\problemsApp.AssemblyInfoInputs.cache
+C:\git\CSharpAlgorithmsAndDataStructures\problemsApp\obj\Debug\netcoreapp2.1\problemsApp.AssemblyInfo.cs
+C:\git\CSharpAlgorithmsAndDataStructures\problemsApp\obj\Debug\netcoreapp2.1\problemsApp.dll
+C:\git\CSharpAlgorithmsAndDataStructures\problemsApp\obj\Debug\netcoreapp2.1\problemsApp.pdb

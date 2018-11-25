@@ -10,14 +10,14 @@ namespace ConsoleAppTest.Alg.DP
     {
         int[] sir = null;
 
-        int LongestIncreasingSequence()
+        public LongestIncreasingSequence()
         {
             int max = 0;
             int[] values = new int[sir.Length];
 
             for (int i = 0; i < sir.Length; i++)
             {
-                int max = 0;
+                max = 0;
                 for (int j = 0; j < i; j++)
                 {
                     if (sir[j] < sir[i])

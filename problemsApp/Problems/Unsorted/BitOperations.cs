@@ -12,7 +12,7 @@ namespace ConsoleAppTest
 
         public int[] arrayInvers = new int[65536];
 
-        public OperatiiCuBiti()
+        public BitOperations()
         {
             //populate array
             
@@ -77,7 +77,7 @@ namespace ConsoleAppTest
         public void TestOperatiiCuBit()
         {
             //Arrage
-            OperatiiCuBiti ob = new OperatiiCuBiti();
+            BitOperations ob = new BitOperations();
             int inverseazaBitiInput = 50;
             int inverseazaBitiOutput = 52;
             int inversInput = 3;
