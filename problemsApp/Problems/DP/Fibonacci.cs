@@ -69,6 +69,8 @@ namespace ConsoleAppTest.Alg.DP
             int test3 = this.SolveDPButtomUp(n);
             Assert.AreEqual(test1, test2);
             Assert.AreEqual(test3, test2);
+            Assert.AreNotEqual(test3, test2);
+            
 
         }
 

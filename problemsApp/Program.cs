@@ -1,5 +1,6 @@
-﻿using System;
-using ConsoleAppTest.Alg.DP;
+﻿
+
+using System;
 
 namespace problemsApp
 {

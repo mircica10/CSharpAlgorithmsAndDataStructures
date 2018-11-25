@@ -9,3 +9,6 @@ C:\git\CSharpAlgorithmsAndDataStructures\problemsApp\obj\Debug\netcoreapp2.1\pro
 C:\git\CSharpAlgorithmsAndDataStructures\problemsApp\obj\Debug\netcoreapp2.1\problemsApp.AssemblyInfo.cs
 C:\git\CSharpAlgorithmsAndDataStructures\problemsApp\obj\Debug\netcoreapp2.1\problemsApp.dll
 C:\git\CSharpAlgorithmsAndDataStructures\problemsApp\obj\Debug\netcoreapp2.1\problemsApp.pdb
+C:\git\CSharpAlgorithmsAndDataStructures\problemsApp\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\git\CSharpAlgorithmsAndDataStructures\problemsApp\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\git\CSharpAlgorithmsAndDataStructures\problemsApp\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
